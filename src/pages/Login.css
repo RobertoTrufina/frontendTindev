@@ -35,8 +35,12 @@ button {
     flex-direction: column;
 }
 
+.login-container form img {
+    margin-left: 90px;
+    margin-right: 90px;
+
+}
 .login-container form input {
-    text-align: center;
     margin-top: 20px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -44,6 +48,7 @@ button {
     padding: 0 20px;
     font-size: 16px;
     color: #666;
+    text-align: center;
 }
 
 .login-container form input ::placeholder {

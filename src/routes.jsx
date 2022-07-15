@@ -8,9 +8,9 @@ export default function ProjectRoutes() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" exact element={ <Login /> } />
-                <Route path="/dev/:id" element={ <Main /> } />
+                <Route path="/" element={<Login />} />
+                <Route path="/main" element={<Main />} />
             </Routes>
-        </BrowserRouter>           
+        </BrowserRouter>
     );
 }
