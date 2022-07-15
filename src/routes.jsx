@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 import Login from './pages/Login';
 import Main from './pages/Main';
 
@@ -9,7 +10,7 @@ export default function ProjectRoutes() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Login />} />
-                <Route path="/main" element={<Main />} />
+                <Route path="/dev/:id" element={<Main />} />
             </Routes>
         </BrowserRouter>
     );
